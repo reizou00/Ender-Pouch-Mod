@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/reizou00/Ender-Pouch-Mod"
 	},
-	"license": "CC-BY-4.0",
+	"license": "CC BY-NC-SA 4.0",
 	"icon": "assets/reizo/icon.png",
 	"environment": "*",
 	"entrypoints": {
