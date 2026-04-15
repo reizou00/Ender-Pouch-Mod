@@ -3,7 +3,7 @@
 	"id": "enderpouch",
 	"version": "${version}",
 	"name": "EnderPouch",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "エンダーチェストの中身と繋がったポーチを追加！！！",
 	"authors": [
 		"reizou_00"
 	],
