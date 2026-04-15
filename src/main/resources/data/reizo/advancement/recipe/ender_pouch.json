@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "crafted_ender_chest": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ender_chest"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "reizo:ender_pouch"
+    ]
+  }
+}

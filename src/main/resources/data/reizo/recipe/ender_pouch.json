@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OBO",
+    "BEB",
+    "eBO"
+  ],
+  "key": {
+    "E": "minecraft:ender_chest",
+    "B": "#minecraft:bundles",
+    "O": "minecraft:obsidian",
+    "e": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "reizo:ender_pouch",
+    "count": 1
+  }
+}
