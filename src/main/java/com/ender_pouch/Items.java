@@ -32,7 +32,7 @@ public class Items {
         public static final Item ENDER_POUCH = registerItem(
                 "ender_pouch",
                 EnderPouchItem::new,
-                new Item.Properties().stacksTo(1)
+                new Item.Properties().stacksTo(1).durability(30)
                 );
 
     // なぜだか分からんがクラスを静的に初期化しなきゃならんラシイ。
