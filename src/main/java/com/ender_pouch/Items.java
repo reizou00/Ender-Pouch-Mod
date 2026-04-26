@@ -12,6 +12,8 @@ import net.minecraft.world.item.Item;
 
 import java.util.function.Function;
 
+import static net.minecraft.world.item.Items.ENDER_EYE;
+
 
 public class Items {
     // アイテムを登録するメソッド
@@ -32,7 +34,7 @@ public class Items {
         public static final Item ENDER_POUCH = registerItem(
                 "ender_pouch",
                 EnderPouchItem::new,
-                new Item.Properties().stacksTo(1)
+                new Item.Properties().stacksTo(1).durability(30).repairable(ENDER_EYE).useCooldown(1.0f)
                 );
 
     // なぜだか分からんがクラスを静的に初期化しなきゃならんラシイ。
